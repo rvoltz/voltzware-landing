@@ -1,0 +1,7 @@
+{
+  "name": "voltzware-landing",
+  "private": true,
+  "scripts": {
+    "pages:build": "mkdir -p dist && cp index.html dist/ && cp -R assets dist/assets"
+  }
+}
