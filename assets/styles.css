@@ -445,12 +445,20 @@ p {
     );
 }
 
+.portfolio-list {
+  display: grid;
+  gap: 0;
+}
+
 .product {
   display: grid;
   gap: 2rem;
   align-items: center;
-  padding: clamp(1.5rem, 3vw, 2.25rem) 0;
+  padding: clamp(1.75rem, 3.5vw, 2.5rem) 0;
   border-top: 1px solid var(--line-strong);
+}
+
+.product:last-child {
   border-bottom: 1px solid var(--line-strong);
 }
 
@@ -459,6 +467,15 @@ p {
     grid-template-columns: 1.05fr 0.95fr;
     gap: 3rem;
   }
+}
+
+.product-status {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cobalto);
 }
 
 .product-name {
@@ -584,6 +601,51 @@ p {
   height: 2.2rem;
   background: #f1f2f4;
   border: 1px solid var(--line);
+}
+
+.product-visual--ping {
+  background:
+    radial-gradient(circle at 30% 40%, rgba(31, 111, 229, 0.28), transparent 50%),
+    linear-gradient(145deg, #0e2c69, var(--navy) 60%, #14305f);
+}
+
+.ping-visual {
+  display: grid;
+  gap: 1.25rem;
+  place-items: center;
+  padding: 2rem 1.5rem;
+  color: #f1f2f4;
+}
+
+.ping-qr {
+  width: 7.5rem;
+  height: 7.5rem;
+  border: 2px solid rgba(241, 242, 244, 0.55);
+  background:
+    linear-gradient(#f1f2f4 0 0) 18% 18% / 18% 18% no-repeat,
+    linear-gradient(#f1f2f4 0 0) 82% 18% / 18% 18% no-repeat,
+    linear-gradient(#f1f2f4 0 0) 18% 82% / 18% 18% no-repeat,
+    linear-gradient(#f1f2f4 0 0) 45% 45% / 22% 22% no-repeat,
+    linear-gradient(#f1f2f4 0 0) 70% 55% / 10% 10% no-repeat,
+    linear-gradient(#f1f2f4 0 0) 55% 70% / 10% 10% no-repeat,
+    rgba(241, 242, 244, 0.08);
+}
+
+.ping-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.ping-arrow {
+  color: var(--signal-bright);
+  font-weight: 800;
 }
 
 .contact {
