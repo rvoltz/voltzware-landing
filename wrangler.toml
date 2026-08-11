@@ -1,3 +1,7 @@
 name = "voltzware-landing"
 compatibility_date = "2025-08-11"
-pages_build_output_dir = "dist"
+
+# Static site via Workers + Assets (Workers Builds / wrangler deploy)
+# Docs: https://developers.cloudflare.com/workers/ci-cd/builds/configuration/
+[assets]
+directory = "./dist"
