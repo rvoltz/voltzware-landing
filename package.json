@@ -2,7 +2,7 @@
   "name": "voltzware-landing",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/ && cp -R assets dist/assets",
+    "build": "mkdir -p dist && cp index.html dist/ && cp robots.txt dist/ && cp sitemap.xml dist/ && cp -R assets dist/assets",
     "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
