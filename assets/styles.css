@@ -305,7 +305,7 @@ p {
 
 .lede {
   margin: 1.25rem 0 0;
-  max-width: 34ch;
+  max-width: 38ch;
   font-size: clamp(1.05rem, 2vw, 1.25rem);
   font-weight: 500;
   color: rgba(241, 242, 244, 0.84);
@@ -386,7 +386,7 @@ p {
 
 .section-intro p:not(.eyebrow) {
   color: var(--carvao);
-  max-width: 40ch;
+  max-width: 44ch;
   font-weight: 500;
 }
 
@@ -429,7 +429,7 @@ p {
 
 .trait-list p {
   color: var(--carvao);
-  max-width: 36ch;
+  max-width: 38ch;
   font-weight: 500;
 }
 
@@ -498,6 +498,15 @@ p {
   max-width: 42ch;
   margin-bottom: 1.35rem;
   font-weight: 500;
+}
+
+.portfolio-note {
+  margin: 1.5rem 0 0;
+  color: var(--carvao);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .text-link {
