@@ -64,13 +64,13 @@ h3 {
 h1 {
   margin: 0;
   font-size: clamp(2.4rem, 6.5vw, 4.8rem);
-  max-width: 14ch;
+  max-width: 12ch;
 }
 
 h2 {
   margin: 0 0 1rem;
   font-size: clamp(1.9rem, 4.2vw, 3rem);
-  max-width: 18ch;
+  max-width: 16ch;
 }
 
 h3 {
@@ -305,7 +305,7 @@ p {
 
 .lede {
   margin: 1.25rem 0 0;
-  max-width: 42ch;
+  max-width: 38ch;
   font-size: clamp(1.05rem, 2vw, 1.25rem);
   font-weight: 500;
   color: rgba(241, 242, 244, 0.84);
@@ -386,7 +386,7 @@ p {
 
 .section-intro p:not(.eyebrow) {
   color: var(--carvao);
-  max-width: 48ch;
+  max-width: 44ch;
   font-weight: 500;
 }
 
@@ -429,7 +429,7 @@ p {
 
 .trait-list p {
   color: var(--carvao);
-  max-width: 42ch;
+  max-width: 38ch;
   font-weight: 500;
 }
 
@@ -490,41 +490,23 @@ p {
 .product-copy h3 {
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   margin-bottom: 0.85rem;
-  max-width: 20ch;
+  max-width: 16ch;
 }
 
 .product-copy > p {
   color: var(--carvao);
-  max-width: 48ch;
+  max-width: 42ch;
   margin-bottom: 1.35rem;
   font-weight: 500;
 }
 
-.product-points {
-  list-style: none;
-  margin: 0 0 1.5rem;
-  padding: 0;
-  display: grid;
-  gap: 0.55rem;
-  max-width: 42ch;
-}
-
-.product-points li {
-  position: relative;
-  padding-left: 1.15rem;
+.portfolio-note {
+  margin: 1.5rem 0 0;
   color: var(--carvao);
-  font-size: 0.98rem;
-  font-weight: 500;
-}
-
-.product-points li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.55em;
-  width: 0.45rem;
-  height: 0.45rem;
-  background: var(--cobalto);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .text-link {
@@ -685,12 +667,12 @@ p {
 }
 
 .contact-panel h2 {
-  max-width: 20ch;
+  max-width: 18ch;
 }
 
 .contact-panel > p {
   margin: 0 0 1.75rem;
-  max-width: 46ch;
+  max-width: 38ch;
   color: var(--carvao);
   font-weight: 500;
 }
